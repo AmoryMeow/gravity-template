@@ -1,0 +1,22 @@
+.header__open-menu {
+  display: flex;
+  flex-direction: column;
+  width: 34px;
+  height: 14px;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.header__open-menu::before {
+  content: '';
+  width: 34px;
+  height: 3px;
+  background-color: #000000;
+}
+
+.header__open-menu::after {
+  content: '';
+  width: 18px;
+  height: 3px;
+  background-color: #000000;
+}
