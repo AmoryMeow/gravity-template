@@ -1,3 +1,12 @@
 .header__video {
-
+  position: absolute;
+  top: 364px;
+  width: 400px;
+  height: 310px;
+  left: calc(50% - 200px);
+  background-image: url('../../../images/header-video.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, .44);
 }

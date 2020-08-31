@@ -1,0 +1,6 @@
+.header__polygon {
+  height: 20px;
+  width: 20px;
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  background-color: #F96241;
+}

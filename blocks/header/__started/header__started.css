@@ -1,3 +1,13 @@
 .header__started {
+  color: #FFFFFF;
+  background-color: #4737FF;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 189px;
+  margin-top: 56px;
+}
 
+.header__started:hover {
+  opacity: .8;
 }

@@ -1,3 +1,8 @@
 .header__bg-image {
-
+  position: absolute;
+  right: -125px;
+  top: 0;
+  width: 665px;
+  height: 840px;
+  object-fit: cover;
 }

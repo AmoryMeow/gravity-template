@@ -1,3 +1,16 @@
 .header__play-video {
+  padding: 0;
+  margin: 0;
+  width: 65px;
+  height: 65px;
+  background-color: #FFFFFF;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.header__play-video:hover {
+  box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
