@@ -1,0 +1,6 @@
+.about {
+  padding-top: 137px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,6 @@
+.user__caption {
+  padding: 0 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

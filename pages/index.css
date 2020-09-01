@@ -1,6 +1,11 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/FiraSans.css');
 @import url('../blocks/page/page.css');
+@import url('../blocks/content/content.css');
+/*section-title*/
+@import url('../blocks/section-title/section-title.css');
+/*section-text*/
+@import url('../blocks/section-text/section-text.css');
 /*logo*/
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
@@ -19,7 +24,18 @@
 @import url('../blocks/header/__text/header__text.css');
 @import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/header/__video/header__video.css');
-
+/*about*/
+@import url('../blocks/about/about.css');
+@import url('../blocks/about/_title/about_title.css');
+@import url('../blocks/about/__text/about__text.css');
+@import url('../blocks/about/__containter/about__containter.css');
+@import url('../blocks/about/__photo/about__photo.css');
+/*user*/
+@import url('../blocks/user/user.css');
+@import url('../blocks/user/__photo/user__photo.css');
+@import url('../blocks/user/__name/user__name.css');
+@import url('../blocks/user/__caption/user__caption.css');
+@import url('../blocks/user/__bio/user__bio.css');
 
 
 * {
