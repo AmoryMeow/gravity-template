@@ -1,4 +1,4 @@
-.header__play-video {
+.play-video {
   padding: 0;
   margin: 0;
   width: 65px;
@@ -11,6 +11,6 @@
   align-items: center;
 }
 
-.header__play-video:hover {
+.play-video:hover {
   box-shadow: 0 0 15px rgba(0,0,0,.5);
 }
