@@ -1,3 +1,6 @@
 .slider__items {
-
+  height: 500px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
 }

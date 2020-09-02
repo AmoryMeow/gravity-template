@@ -1,3 +1,10 @@
 .slider__image {
-
+  background-image: url('../../../images/slider_image.jpg');
+  background-size: cover;
+  height: 100%;
+  width: 825px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

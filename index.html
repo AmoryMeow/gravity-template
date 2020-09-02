@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
-  <header class="header">
+  <header class="header section section_position_center">
     <nav class="header__menu">
       <img src="./images/Logo.svg" alt="logo" class="logo logo_place_header">
       <a href="#" class="header__search"><img src="./images/Search Icon.svg" alt="search" class="header__search-icon"></a>
@@ -30,7 +30,7 @@
 
   <main class="content">
 
-    <section class="about">
+    <section class="about section section_position_center">
       <img src="./images/about-image.jpg" alt="about us" class="about__photo">
       <div class="about__containter">
         <h2 class="about_title section-title">We solve digital problems with an outstanding creative flare</h2>
@@ -46,37 +46,35 @@
       </div>
     </section>
 
-    <section class="services">
+    <section class="services section section_position_center">
       <p class="services__caption">— Services</p>
       <div class="services__container">
-        <h2 class="services__title">We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</h2>
+        <h2 class="services__title section-title">We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</h2>
         <ul class="services__menu">
-          <li class="services__item">Multimedia</li>
-          <li class="services__item">Creative Strategy</li>
-          <li class="services__item">Interactive design</li>
-          <li class="services__item">UI/UX</li>
-          <li class="services__item">Packaging</li>
-          <li class="services__item">Coding</li>
-          <li class="services__item">Branding</li>
+          <li><a href="#" class="services__item">Multimedia</a></li>
+          <li><a href="#" class="services__item">Creative Strategy</a></li>
+          <li><a href="#" class="services__item">Interactive design</a></li>
+          <li><a href="#" class="services__item">UI/UX</a></li>
+          <li><a href="#" class="services__item">Packaging</a></li>
+          <li><a href="#" class="services__item">Coding</a></li>
+          <li><a href="#" class="services__item">Branding</a></li>
         </ul>
       </div>
-      <div class="slider">
-        <div class="slider__items">
-          <div class="slider__image">
-            <button class="play-video">
-              <div class="play-video__polygon"></div>
-            </button>
-          </div>
-          <div class="slider__image slider__image_disable">
-          </div>
+    </section>
+    <section class="slider section section_position_right">
+      <div class="slider__items">
+        <div class="slider__image">
+          <button class="play-video">
+            <div class="play-video__polygon"></div>
+          </button>
         </div>
-        <div class="slider__navigation">
-          <div class="slider__left"></div>
-          <div class="slider__right"></div>
-        </div>
+        <div class="slider__image slider__image_disable"></div>
+      </div>
+      <div class="slider__navigation">
+        <div class="slider__button slider__button_arrow_left"></div>
+        <div class="slider__button slider__button_arrow_right"></div>
       </div>
     </section>
-
 
   </main>
 

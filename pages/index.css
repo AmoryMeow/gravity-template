@@ -6,6 +6,11 @@
 @import url('../blocks/section-title/section-title.css');
 /*section-text*/
 @import url('../blocks/section-text/section-text.css');
+/*section*/
+@import url('../blocks/section/section.css');
+@import url('../blocks/section/_position/section_position_left.css');
+@import url('../blocks/section/_position/section_position_center.css');
+@import url('../blocks/section/_position/section_position_right.css');
 /*logo*/
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
@@ -48,10 +53,11 @@
 @import url('../blocks/slider/slider.css');
 @import url('../blocks/slider/__image/slider__image.css');
 @import url('../blocks/slider/__items/slider__items.css');
-@import url('../blocks/slider/__left/slider__left.css');
-@import url('../blocks/slider/__right/slider__right.css');
+@import url('../blocks/slider/__button/slider__button.css');
 @import url('../blocks/slider/__navigation/slider__navigation.css');
 @import url('../blocks/slider/__image/_disable/slider__image_disable.css');
+@import url('../blocks/slider/__button/_arrow/slider__button_arrow_left.css');
+@import url('../blocks/slider/__button/_arrow/slider__button_arrow_right.css');
 
 * {
   outline:1px green solid;

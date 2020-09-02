@@ -1,3 +1,10 @@
 .services__menu {
-
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 189px);
+  grid-column-gap: 60px;
+  grid-row-gap: 21px;
+  align-items: flex-start;
 }
