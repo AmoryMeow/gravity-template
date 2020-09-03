@@ -1,4 +1,5 @@
 .works__footer {
   display: flex;
   justify-content: space-between;
+  padding-top: 52px;
 }

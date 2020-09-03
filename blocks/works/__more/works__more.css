@@ -1,3 +1,15 @@
 .works__more {
-
+  width: 222px;
+  height: 50px;
+  background-color: #4737FF;
+  outline: none;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }

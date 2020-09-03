@@ -6,6 +6,13 @@
   height: 50px;
   width: 189px;
   margin-top: 56px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
 }
 
 .header__started:hover {
