@@ -1,0 +1,10 @@
+.features__item-caption {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #000000;
+  padding-left: 30px;
+}

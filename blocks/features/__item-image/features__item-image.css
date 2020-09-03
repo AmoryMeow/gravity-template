@@ -1,0 +1,9 @@
+.features__item-image {
+  background-color: #E5E5E5;
+  width: 18px;
+  height: 18px;
+  padding: 18px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 50%;
+}

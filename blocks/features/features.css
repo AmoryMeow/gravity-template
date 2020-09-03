@@ -1,0 +1,9 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  padding-top: 181px;
+  min-height: calc(552px + 181px);
+  box-sizing: border-box;
+}
