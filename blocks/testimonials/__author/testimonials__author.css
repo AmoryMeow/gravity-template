@@ -1,0 +1,4 @@
+.testimonials__author {
+  display: grid;
+  grid-row-gap: 13px;
+}

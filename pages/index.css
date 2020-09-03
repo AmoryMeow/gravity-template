@@ -54,11 +54,13 @@
 @import url('../blocks/slider/slider.css');
 @import url('../blocks/slider/__image/slider__image.css');
 @import url('../blocks/slider/__items/slider__items.css');
-@import url('../blocks/slider/__button/slider__button.css');
-@import url('../blocks/slider/__navigation/slider__navigation.css');
 @import url('../blocks/slider/__image/_disable/slider__image_disable.css');
-@import url('../blocks/slider/__button/_arrow/slider__button_arrow_left.css');
-@import url('../blocks/slider/__button/_arrow/slider__button_arrow_right.css');
+
+/*slider-navigation*/
+@import url('../blocks/slider-navigation/slider-navigation.css');
+@import url('../blocks/slider-navigation/__button/slider-navigation__button.css');
+@import url('../blocks/slider-navigation/__button/_arrow/slider-navigation__button_arrow_left.css');
+@import url('../blocks/slider-navigation/__button/_arrow/slider-navigation__button_arrow_right.css');
 /*features*/
 @import url('../blocks/features/features.css');
 @import url('../blocks/features/__bgimage/features__bgimage.css');
@@ -87,7 +89,15 @@
 /*card*/
 @import url('../blocks/card/card.css');
 @import url('../blocks/card/__image/card__image.css');
-
+/*testimonials*/
+@import url('../blocks/testimonials/testimonials.css');
+@import url('../blocks/testimonials/__author-bio/testimonials__author-bio.css');
+@import url('../blocks/testimonials/__author-name/testimonials__author-name.css');
+@import url('../blocks/testimonials/__author/testimonials__author.css');
+@import url('../blocks/testimonials/__caption/testimonials__caption.css');
+@import url('../blocks/testimonials/__container/testimonials__container.css');
+@import url('../blocks/testimonials/__feedback/testimonials__feedback.css');
+@import url('../blocks/testimonials/__photo/testimonials__photo.css');
 
 * {
   outline:1px green solid;

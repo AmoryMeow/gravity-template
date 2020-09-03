@@ -1,0 +1,7 @@
+.testimonials {
+  padding-top: 248px;
+  box-sizing: border-box;
+  min-height: 620px;
+  display: flex;
+  justify-content: space-between;
+}
