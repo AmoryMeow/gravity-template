@@ -1,0 +1,8 @@
+.clients__list {
+  padding-top: 75px;
+  list-style: none;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
