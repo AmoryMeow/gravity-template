@@ -1,0 +1,12 @@
+.subscribe__email {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  color: rgba(34, 34, 34, .5); /*#222222*/
+  background-color: #F5F4FF;
+  border: none;
+  outline: none;
+  padding: 0 20px;
+}

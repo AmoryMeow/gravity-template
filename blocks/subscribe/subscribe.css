@@ -1,0 +1,6 @@
+.subscribe {
+  display: grid;
+  grid-template-columns: 170px 100px;
+  grid-gap: 15px;
+  height: 40px;
+}

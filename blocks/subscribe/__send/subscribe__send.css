@@ -1,0 +1,19 @@
+.subscribe__send {
+  padding: 0;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background-color:  #C6B393;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.subscribe__send:hover {
+  opacity: .8;
+}

@@ -1,0 +1,15 @@
+.footer__extra-menu-item {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  transition: border .3 linear;
+  border-bottom: none;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+}
