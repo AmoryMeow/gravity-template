@@ -72,7 +72,7 @@
 @import url('../blocks/features/__title/features__title.css');
 /*works*/
 @import url('../blocks/works/works.css');
-@import url('../blocks/works/__bottom/');
+@import url('../blocks/works/__footer/works__footer.css');
 @import url('../blocks/works/__caption/works__caption.css');
 @import url('../blocks/works/__container/works__container.css');
 @import url('../blocks/works/__heading/works__heading.css');
@@ -82,7 +82,11 @@
 @import url('../blocks/works/__text/works__text.css');
 @import url('../blocks/works/__title/works__title.css');
 @import url('../blocks/works/__item/_active/works__item_active.css');
-
+/*cards*/
+@import url('../blocks/cards/cards.css');
+/*card*/
+@import url('../blocks/card/card.css');
+@import url('../blocks/card/__image/card__image.css');
 
 
 * {
