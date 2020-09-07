@@ -16,7 +16,7 @@
     <div class="header__container">
       <div class="header__text">
         <h1 class="header__title">Work around you and your team</h1>
-        <p class="header__subtitle section-text">From ads that dance or sing to MTV-like commercials, online advertisers are now using a new type of technology “rich media” to attract consumers.</p>
+        <p class="header__subtitle section section__text">From ads that dance or sing to MTV-like commercials, online advertisers are now using a new type of technology “rich media” to attract consumers.</p>
         <button class="header__started">GET STARTED</button>
       </div>
       <img src="./images/header-image.jpg" alt="image" class="header__bg-image">
@@ -33,9 +33,9 @@
     <section class="about section section_position_center">
       <img src="./images/about-image.jpg" alt="about us" class="about__photo">
       <div class="about__containter">
-        <h2 class="about_title section-title">We solve digital problems with an outstanding creative flare</h2>
-        <p class="about__text section-text">The best time to view the moon, obviously, is at night when there are few clouds and the weather is accommodating for a long and lasting study.</p>
-        <p class="about__text section-text">For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.</p>
+        <h2 class="about_title section section__title">We solve digital problems with an outstanding creative flare</h2>
+        <p class="about__text section section__text">The best time to view the moon, obviously, is at night when there are few clouds and the weather is accommodating for a long and lasting study.</p>
+        <p class="about__text section section__text">For most of us, the idea of astronomy is something we directly connect to “stargazing”, telescopes and seeing magnificent displays in the heavens.</p>
         <div class="user">
           <img src="./images/userpic.jpg" alt="" class="user__photo">
           <div class="user__caption">
@@ -49,7 +49,7 @@
     <section class="services section section_position_center">
       <p class="services__caption section section__caption">— Services</p>
       <div class="services__container">
-        <h2 class="services__title section-title">We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</h2>
+        <h2 class="services__title section section__title">We love work hard and explore new things that’s why we cover lot of things. Check our service list and view details</h2>
         <ul class="services__menu">
           <li><a href="#" class="services__item">Multimedia</a></li>
           <li><a href="#" class="services__item">Creative Strategy</a></li>
@@ -63,12 +63,12 @@
     </section>
     <section class="slider section section_position_right">
       <div class="slider__items">
-        <div class="slider__image">
+        <!--<div class="slider__image">
           <button class="play-video">
             <div class="play-video__polygon"></div>
           </button>
         </div>
-        <div class="slider__image slider__image_disable"></div>
+        <div class="slider__image slider__image_disable"></div>-->
       </div>
       <div class="slider-navigation">
         <div class="slider-navigation__button slider-navigation__button_arrow_left"></div>
@@ -76,12 +76,18 @@
       </div>
     </section>
 
+    <template id="play-video-template">
+      <button class="play-video">
+        <div class="play-video__polygon"></div>
+      </button>
+    </template>
+
     <section class="features section section_position_left">
       <img src="./images/features_bgImage.png" alt="background image" class="features__bgimage">
       <img src="./images/features_image.png" alt="image" class="features__image">
       <div class="features__container">
-        <h2 class="features__title section-title">Well thought with super easy to use</h2>
-        <p class="features__text section-text">As we approached the palace I could see through the great windows of the first floor the brilliantly illuminated audience chamber of Than Kosis. The immense hall was crowded with nobles and their women.</p>
+        <h2 class="features__title section section__title">Well thought with super easy to use</h2>
+        <p class="features__text section section__text">As we approached the palace I could see through the great windows of the first floor the brilliantly illuminated audience chamber of Than Kosis. The immense hall was crowded with nobles and their women.</p>
         <ul class="features__list">
           <li class="features__item">
             <img src="./images/ultimate_result.svg" alt="ultimate result" class="features__item-image">
@@ -99,7 +105,7 @@
       <p class="works__caption section section__caption">— our works</p>
       <div class="works__container">
         <div class="works__heading">
-          <h2 class="works__title section-title">Discover our Work</h2>
+          <h2 class="works__title section section__title">Discover our Work</h2>
           <ul class="works__switcher">
             <li class="works__item works__item_active">ALL</li>
             <li class="works__item">BRANDING</li>
@@ -132,7 +138,7 @@
           </div>
         </div>
         <div class="works__footer">
-          <p class="works__text section-text">It picks up the words on the page and displays ads that are similar to those words. Then when someone either performs an action or clicks on your page you will get paid.</p>
+          <p class="works__text section section__text">It picks up the words on the page and displays ads that are similar to those words. Then when someone either performs an action or clicks on your page you will get paid.</p>
           <button class="works__more">see our works</button>
         </div>
       </div>
@@ -141,7 +147,7 @@
     <section class="testimonials section section_position_center">
       <div class="testimonials__container">
         <p class="testimonials__caption section section__caption">— Testimonials</p>
-        <p class="testimonials__feedback section-title">"Professionals in their craft! All products were super great with strong attention to details, and overall vibe"</p>
+        <p class="testimonials__feedback section section__title">"Professionals in their craft! All products were super great with strong attention to details, and overall vibe"</p>
         <div class="testimonials__author">
           <p class="testimonials__author-name">Polina Kuzina</p>
           <p class="testimonials__author-bio">Manager at Craftwork</p>
@@ -156,10 +162,10 @@
 
     <section class="clients section section_position_center">
       <div class="clients__heading">
-        <h2 class="clients__title section-title">Our Clients</h2>
+        <h2 class="clients__title section section__title">Our Clients</h2>
         <div class="clients__container">
           <p class="clients__caption section section__caption">— We worked with</p>
-          <p class="clients__text section-text">Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
+          <p class="clients__text section section__text">Our favorite brands are our friends! We help them to achieve their goals, they help us to stay sharp.</p>
         </div>
       </div>
       <ul class="clients__list">
@@ -216,5 +222,7 @@
     </div>
   </footer>
 
+  <script src="./script/data.js"></script>
+  <script src="./script/main.js"></script>
 </body>
 </html>

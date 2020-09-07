@@ -1,6 +1,23 @@
+@keyframes not_disable {
+  0% {
+    opacity: 0.3;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 1;
+    transform: translateX(-825px);
+  }
+  100% {
+    opacity: 0.3;
+    transform: translateX(0);
+  }
+}
+
 .slider__image_disable {
-  background-image: url('../../../../images/slider_image_disable.jpg');
-  position: absolute;
-  left: calc(825px + 30px);
+  /*background-image: url('../../../../images/slider_image_disable.jpg');*/
+  /*position: absolute;
+  left: calc(825px + 30px);*/
   opacity: 0.3;
+  /*animation: not_disable  5s ease;*/
+
 }
