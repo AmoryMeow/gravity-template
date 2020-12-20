@@ -3,7 +3,7 @@
   position: relative;
   display: grid;
   grid-template-columns: repeat(4, 825px);
-  /* grid-template-columns: repeat(1, 500px); */
+  /* grid-template-rows: repeat(1, 500px); */
   grid-column-gap: 30px;
-  transition: .2s
+  transition: 1s ease-in-out;
 }

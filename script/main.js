@@ -19,9 +19,11 @@ export class Slider {
     this._shift = widthPhoto + gapPhoto; //855px
     this._widthSlider = this._shift * sliderPhoto.length;
     this.container.style.GridTemplateColumns = `repeat(${sliderPhoto.length}, ${this._widthPhoto})`;
+    console.log('this.container.style: ', this.container.style);
 
     this._position = 0;
     this._maxPosition = - (this._shift * (sliderPhoto.length-1));
+    this._currentPhoto = 0;
 
     this._setEventListener();
   }
@@ -33,18 +35,24 @@ export class Slider {
 
   _handleMoveRight() {
     this._position -= this._shift;
-    console.log('_handleMoveRight this._position: ', this._position);
+    this._currentPhoto += 1;
     this._setPosition();
   }
 
   _handleMoveLeft() {
     this._position += this._shift;
-    console.log('_handleMoveLeft this._position: ', this._position);
+    this._currentPhoto -= 1;
     this._setPosition();
   }
 
   _setPosition() {
     this.container.style.transform = `translateX(${this._position}px)`
+
+    const itemList = Array.from(this.container.children);
+    itemList[this._currentPhoto].classList.remove('slider__image_disable')
+    if (this._currentPhoto < sliderPhoto.length - 1) {
+      itemList[this._currentPhoto + 1].classList.add('slider__image_disable')
+    }
 
     this._checkPosition()
   }
@@ -79,6 +87,7 @@ export class Slider {
       const newItem = this._createSliderItem(item);
       this.container.append(newItem);
     })
+    this._setPosition();
   }
 }
 
