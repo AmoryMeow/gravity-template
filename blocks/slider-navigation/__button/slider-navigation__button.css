@@ -2,8 +2,11 @@
   width: 50px;
   height: 50px;
   background-color: #C4C4C4;
+  border: none;
+  outline: none;
 }
 
 .slider-navigation__button:hover {
   opacity: .8;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
 }

@@ -1,4 +1,4 @@
-sliderPhoto = [
+export const sliderPhoto = [
   {
     img: './images/slider_image.jpg',
     link: "#",

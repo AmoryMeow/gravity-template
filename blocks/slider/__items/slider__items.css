@@ -1,8 +1,9 @@
 .slider__items {
   height: 500px;
   position: relative;
-  overflow: hidden;
   display: grid;
-  grid-template-columns: repeat(3, 825px);
+  grid-template-columns: repeat(4, 825px);
+  /* grid-template-columns: repeat(1, 500px); */
   grid-column-gap: 30px;
+  transition: .2s
 }

@@ -53,6 +53,7 @@
 @import url('../blocks/slider/slider.css');
 @import url('../blocks/slider/__image/slider__image.css');
 @import url('../blocks/slider/__items/slider__items.css');
+@import url('../blocks/slider/__container/slider__container.css');
 @import url('../blocks/slider/__image/_disable/slider__image_disable.css');
 
 /*slider-navigation*/
@@ -123,5 +124,5 @@
 @import url('../blocks/footer/__top/footer__top.css');
 
 * {
-  /*outline:1px green solid;*/
+  /* outline:1px green solid; */
 }

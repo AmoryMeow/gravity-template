@@ -11,7 +11,7 @@
 }
 
 .slider__image {
-  /*background-image: url('../../../images/slider_image.jpg');*/
+  background-image: url('../../../images/slider_image.jpg');
   background-size: cover;
   height: 500px;
   width: 825px;
@@ -20,5 +20,6 @@
   justify-content: center;
   align-items: center;
   /*animation: next 5s ease;*/
+  transition: 2s linear;
 
 }
